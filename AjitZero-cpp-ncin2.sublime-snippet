@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+${1:int} ${2:var1}, ${3:var2};${4: }${5:std::}cin >> ${2/\*//} >> ${3/\*//};
+${6: }
+]]></content>
+	<tabTrigger>ncin:2</tabTrigger>
+	<scope>source.c++, source.objc++, meta.function.c++, meta.block.c++, meta.block.c++, meta.block.c++</scope>
+</snippet>

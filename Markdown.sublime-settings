@@ -1,0 +1,19 @@
+{
+	"extensions":
+	[
+		"md",
+		"mdown"
+	],
+
+	// "color_scheme": "Packages/MarkdownEditing/MarkdownEditor.tmTheme",
+	"color_scheme": "Packages/MarkdownEditing/MarkdownEditor-Dark.tmTheme",
+	// "color_scheme": "Packages/MarkdownEditing/MarkdownEditor-Yellow.tmTheme",
+
+	// "color_scheme": "Packages/MarkdownEditing/MarkdownEditor-Focus.tmTheme",
+
+	// Caret
+	"caret_style": "phase",
+	"caret_extra_top": 2,
+	"caret_extra_bottom": 2,
+
+}

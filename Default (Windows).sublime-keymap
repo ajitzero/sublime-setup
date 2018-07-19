@@ -1,0 +1,40 @@
+[{
+	"keys": ["ctrl+alt+s"],
+	"command": "auto_save"
+}, {
+	"keys": ["alt+enter"],
+	"command": "run_macro_file",
+	"args": {
+		"file": "Packages/User/AjitZero-new-scope-js.sublime-macro"
+	}
+}, {
+	"keys": ["ctrl+alt+enter"],
+	"command": "run_macro_file",
+	"args": {
+		"file": "Packages/User/AjitZero-new-scope-official.sublime-macro"
+	}
+}, {
+	"keys": ["f5"],
+	"command": "revert"
+}, {
+	"keys": ["ctrl+alt+r"],
+	"command": "reindent",
+	"args": {
+		"single_line": false
+	}
+}, {
+	"keys": ["ctrl+b"],
+	"command": "repl_open",
+	"args": {
+		"type": "subprocess",
+		"encoding": "utf8",
+		"cmd": ["cmd", "/c", "g++ $file_basename && a.exe && del a.exe"],
+		"cwd": "$file_path",
+		"syntax": "Packages/C++/C++.tmLanguage",
+		"external_id": "c++"
+	},
+	"context": [{
+		"key": "selector",
+		"operand": "source.c++, source.c"
+	}]
+}, ]

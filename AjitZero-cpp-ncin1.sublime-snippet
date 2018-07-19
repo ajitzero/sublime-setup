@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${1:int} ${2:var};${3: }${4:std::}cin >> ${2/\*//};
+${5: }
+]]></content>
+	<tabTrigger>ncin:1</tabTrigger>
+	<scope>source.c++, source.objc++, meta.function.c++, meta.block.c++, meta.block.c++, meta.block.c++</scope>
+	<!-- <description>Create and take input for 1 variable</description> -->
+</snippet>

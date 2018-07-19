@@ -1,0 +1,57 @@
+{
+	"auto_complete_commit_on_tab": true,
+	"auto_complete_delay": 0,
+	"auto_complete_triggers":
+	[
+		{
+			"characters": "<",
+			"selector": "text.html"
+		},
+		{
+			"characters": ".",
+			"selector": "source.js, source.c++, text.html"
+		},
+		{
+			"characters": ":",
+			"selector": "source.css"
+		}
+	],
+	"auto_complete_with_fields": true,
+	"bold_folder_labels": true,
+	"caret_extra_bottom": 2,
+	"caret_extra_top": 2,
+	"caret_style": "phase",
+	"color_scheme": "Packages/User/Spaceblack-Monokai (SublimePythonIDE).tmTheme",
+	"draw_minimap_border": true,
+	"enable_tab_scrolling": false,
+	"font_size": 16,
+	"hide_sidebar_change_count_trigger": 5,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"CSS",
+		"Markdown",
+		"Vintage"
+	],
+	"margin": 0,
+	"match_brackets": false,
+	"match_brackets_angle": false,
+	"match_brackets_braces": false,
+	"match_brackets_content": false,
+	"match_brackets_square": false,
+	"match_tags": false,
+	"remember_full_screen": true,
+	"scroll_speed": 2,
+	"show_css_completions": false,
+	"show_line_endings": true,
+	"show_tab_close_buttons": false,
+	"sidebar_toggle_auto_hide": true,
+	"sidebar_toggle_on_hover": true,
+	"spacegray_fileicons": true,
+	"spacegray_sidebar_font_large": true,
+	"spacegray_sidebar_tree_normal": true,
+	"spacegray_tabs_font_large": true,
+	"spacegray_tabs_large": true,
+	"theme": "Spaceblack.sublime-theme"
+}

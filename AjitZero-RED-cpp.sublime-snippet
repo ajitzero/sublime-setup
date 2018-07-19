@@ -1,0 +1,32 @@
+<snippet>
+	<content><![CDATA[
+#include <bits/stdc++.h>
+using namespace std;
+#define repi(i,n) for(int i=0; i<(int)(n); ++i)
+#define repi2(i,x,n) for(int i=(x); i<(int)(n); ++i)
+#define endl '\n'
+
+typedef unsigned int ui;
+typedef unsigned long long ull;
+
+${1:// }#define XORSWAP(a, b) ((&(a) == &(b)) ? (a) : ((a)^=(b),(b)^=(a),(a)^=(b)))
+${1:// }inline unsigned gcd(unsigned a, unsigned b) { return b ? gcd(b, a%b) : a; }
+${1:// }inline unsigned lcm(unsigned a, unsigned b) { return a * b / gcd(a, b); }
+
+${2:// add solve() template here}
+
+int main() {
+	std::ios_base::sync_with_stdio(false);
+	${3:// driver code}
+	int T; cin >> T;
+	while (T--) {
+		${4:int} ${5:var1}, ${6:var2}, ${7:var3};
+		cin >> ${5/\*//} >> ${6/\*//} >> ${7/\*//};
+		${8: // call solve() here}
+	}
+	return 0;
+}
+]]></content>
+	<tabTrigger>ccc</tabTrigger>
+	<scope>source.c++, source.objc++, meta.function.c++, meta.block.c++, meta.block.c++, meta.block.c++</scope>
+</snippet>
